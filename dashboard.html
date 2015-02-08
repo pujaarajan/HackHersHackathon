@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="card/lib/css/card.css">
+    <link href="css/style.css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+<nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" id="logo" href="">
+                <img src="./image/logo-small.png" alt="Home">
+            </a>
+        </div>
+        <ul class="nav navbar-nav navbar-right" style="margin-right:10px;">
+
+            <li>&nbsp;</li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" style="margin-right:10px;">
+            <li>
+                <!-- <a type="button" class="btn btn-primary" href="dashboard.html">Sign Up</a> -->
+
+                <a type="button" class="btn btn-default navbar-btn btn-outline" data-toggle="modal" data-target="#ticketmodal" >Profile</a>
+            </li>
+            <li>
+                <a type="button" class="btn btn-default navbar-btn btn-outline" data-toggle="modal" data-target="#ticketmodal" href="index.html">Logout</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<br/>
+<div class="page-header">
+    <h1 align="center" id="title">Coupons unique to you</h1>
+</div>
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Filters</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categories <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="pt1"></h3>
+                </div>
+                <div class="panel-body" id="pb1">
+
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="pt4"></h3>
+                </div>
+                <div class="panel-body" id="pb4">
+
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="pt7"></h3>
+                </div>
+                <div class="panel-body" id="pb7">
+
+                </div>
+            </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="pt2"></h3>
+                </div>
+                <div class="panel-body" id="pb2">
+
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="pt5"></h3>
+                </div>
+                <div class="panel-body" id="pb5">
+
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="pt8"></h3>
+                </div>
+                <div class="panel-body" id="pb8">
+
+                </div>
+            </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="pt3"></h3>
+                </div>
+                <div class="panel-body" id="pb3">
+
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="pt6"></h3>
+                </div>
+                <div class="panel-body" id="pb6">
+
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="pt9"></h3>
+                </div>
+                <div class="panel-body" id="pb9">
+
+                </div>
+            </div>
+        </div><!-- /.col-sm-4 -->
+    </div>
+</div>
+</div>
+<div class="container">
+    <nav>
+        <ul class="pagination">
+            <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+            <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="#">2 <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="#">3 <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="#">4 <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="#">5 <span class="sr-only">(current)</span></a></li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+    var employees = [
+        {
+            "companyName":"Target",
+            "couponType":"Clothes",
+            "expirationDate":"12-2-2015",
+            "discount":"20% off your entire purchase"
+        },
+        {
+            "companyName":"American Eagle",
+            "couponType":"Clothes",
+            "expirationDate":"2-12-2015",
+            "discount":"Designer Jeans for her $9 each "
+        },
+        {
+            "companyName":"J C Penny",
+            "couponType":"Clothes",
+            "expirationDate":"2-15-2015",
+            "discount":"$10 off of $25"
+        },
+        {
+            "companyName":"Macy's",
+            "couponType":"Clothes",
+            "expirationDate":"6-5-2015",
+            "discount":"50% off entire stock"
+        }, {
+            "companyName":"Nordstrom",
+            "couponType":"Clothes",
+            "expirationDate":"3-5-2015",
+            "discount":"$20 off of $50"
+        } ,{
+            "companyName":"Gap",
+            "couponType":"Clothes",
+            "expirationDate":"5-6-2015",
+            "discount":"20% off your entire purchase"
+        } ,{
+            "companyName":"Whole Food",
+            "couponType":"Food",
+            "expirationDate":"12-2-2015",
+            "discount":"$5 off of $50"
+        } ,{
+            "companyName":"Panera Bread",
+            "couponType":"Food",
+            "expirationDate":"4-5-2015",
+            "discount":"Buy 1, get 1 50% off"
+        }, {
+            "companyName":"Subway",
+            "couponType":"Food",
+            "expirationDate":"2-15-2015",
+            "discount":"Combo : 1 footlong + 1 six inch sub + 12 oz drink = $10"
+        } ,{
+            "companyName":"Starbucks",
+            "couponType":"Food",
+            "expirationDate":"3-4-2015",
+            "discount":"Free Vanilla Late"
+        }
+    ];
+    myFunction(employees);
+    function myFunction(arr) {
+        var i;
+
+        for (i = 1; i <= arr.length; i++)
+        {
+            document.getElementById("pt"+i).innerHTML = arr[i].companyName;
+            document.getElementById("pb"+i).innerHTML = arr[i].couponType+"<br>"+arr[i].discount+"<br>"+arr[i].expirationDate+"<br>" ;
+        }
+    }
+
+    var sort_by=function(field,reverse,primer){
+        var key=primer ?
+                function(x) {return primer(x[field])}:
+                function(x) {return x[field]};
+        reverse=[-1,1][+!!reverse];
+
+        return function (a,b){
+            return a=key(a),b=key(b),reverse*((a>b)-(b>a));
+        }
+    }
+
+    function test() {
+
+        employees.sort(sort_by('expirationDate',false,function(a){return a.toUpperCase()}));
+        var i=0;
+        for (i = 1; i <= employees.length; i++)
+        {
+            document.getElementById("pt"+i).innerHTML = arr[i].companyName;
+            document.getElementById("pb"+i).innerHTML = arr[i].couponType+"<br>"+arr[i].discount+"<br>"+arr[i].expirationDate+"<br>" ;
+        }
+
+    }
+
+</script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+
